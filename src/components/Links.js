@@ -1,10 +1,13 @@
 
 function Links() {
+    const github = "https://github.com/liza"
+    const linkedin = "https://www.linkedin.com/in/liza/"
     return (
         <div>
             <h3>Links</h3>
-            <a href="https://github.com/liza">Github Link</a>
-            <a href="https://www.linkedin.com/in/liza/">Linkedin Link</a>
+            
+            <a>{github}</a>
+            <a>{linkedin}</a>
         </div>
 
     )
